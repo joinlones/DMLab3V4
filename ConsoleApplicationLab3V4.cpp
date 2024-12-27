@@ -166,6 +166,8 @@ void find_eulerian_cycle(vector<vector<int>>& adjMatrix) {
 }
 
 int main() {
+    // Установка локали для поддержки русских символов
+    setlocale(LC_ALL, "Russian");
     int vertices;
     vector<vector<int>> adjMatrix = input_adjacency_matrix(vertices);
 
